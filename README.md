@@ -1,3 +1,9 @@
+# RESULT
+
+<img width="1527" height="629" alt="image" src="https://github.com/user-attachments/assets/971f086d-31ef-4caf-9b9c-f81f80e79cca" />
+
+
+
 **Reto Workshop Soroban Sesión 1**
 
 😉**Pistas y guias para el reto:** [https://developers.stellar.org/docs/build/smart-contracts](https://developers.stellar.org/docs/build/smart-contracts)
