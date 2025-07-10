@@ -11,13 +11,13 @@ pub struct Contract;
 impl Contract {
     
     pub fn sumar(env: Env, a:i128, b:i128) -> i128 {
-      //Implementar función que sume dos números
-      return 30;
+        let resultado = a + b;
+        env.storage().instance().set(&RESULTADO, &resultado);
+        resultado
     }
 
     pub fn resultado_anterior(env: Env) -> i128 {
-           //Implementar función que retorne el valor anterior
-            return 30;
+        env.storage().instance().get(&RESULTADO).unwrap_or(0)
     }
 }
 
